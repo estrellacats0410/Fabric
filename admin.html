@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="dashboard-container">
+
+    <header class="dashboard-header">
+      <span class="auth-tag">AUTHORIZED STAFF</span>
+      <h1>Admin dashboard</h1>
+      <p>Manage products, inventory, orders, and sales records.</p>
+    </header>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <span class="stat-label">Total Products</span>
+        <span class="stat-value">0</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Low Stock</span>
+        <span class="stat-value">0</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Orders</span>
+        <span class="stat-value">0</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Sales</span>
+        <span class="stat-value">₱0</span>
+      </div>
+    </div>
+
+    <div class="main-content">
+      
+      <section class="content-block inventory-section">
+        <div class="block-header">
+          <h2>Inventory</h2>
+          <button class="btn-add">+ Add product</button>
+        </div>
+        <div class="table-container">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Stock</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Needle</td>
+                <td>Needle</td>
+                <td>₱25</td>
+                <td>10</td>
+                <td><span class="status-badge available">Available</span></td>
+              </tr>
+              <tr>
+                <td>Needle</td>
+                <td>Needle</td>
+                <td>₱25</td>
+                <td>10</td>
+                <td><span class="status-badge available">Available</span></td>
+              </tr>
+              <tr>
+                <td>Needle</td>
+                <td>Needle</td>
+                <td>₱25</td>
+                <td>10</td>
+                <td><span class="status-badge available">Available</span></td>
+              </tr>
+              <tr>
+                <td>Needle</td>
+                <td>Needle</td>
+                <td>₱25</td>
+                <td>10</td>
+                <td><span class="status-badge available">Available</span></td>
+              </tr>
+              <tr>
+                <td>Needle</td>
+                <td>Needle</td>
+                <td>₱25</td>
+                <td>10</td>
+                <td><span class="status-badge available">Available</span></td>
+              </tr>
+              <tr>
+                <td>Needle</td>
+                <td>Needle</td>
+                <td>₱25</td>
+                <td>10</td>
+                <td><span class="status-badge available">Available</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="content-block orders-section">
+        <div class="block-header">
+          <h2>Recent orders</h2>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</body>
+</html>
